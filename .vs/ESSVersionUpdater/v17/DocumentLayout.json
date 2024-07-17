@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DEV\\Repos\\AssemblyVersionUpdater\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3304A553-7C20-4220-B2C2-6804B9BB04AA}|AssemblyVersionUpdater\\AssemblyVersionUpdater.csproj|c:\\dev\\repos\\AssemblyVersionUpdater\\AssemblyVersionUpdater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3304A553-7C20-4220-B2C2-6804B9BB04AA}|AssemblyVersionUpdater\\AssemblyVersionUpdater.csproj|solutionrelative:AssemblyVersionUpdater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DEV\\Repos\\AssemblyVersionUpdater\\AssemblyVersionUpdater\\Program.cs",
+              "RelativeDocumentMoniker": "AssemblyVersionUpdater\\Program.cs",
+              "ToolTip": "C:\\DEV\\Repos\\AssemblyVersionUpdater\\AssemblyVersionUpdater\\Program.cs",
+              "RelativeToolTip": "AssemblyVersionUpdater\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwD0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-13T07:36:29.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

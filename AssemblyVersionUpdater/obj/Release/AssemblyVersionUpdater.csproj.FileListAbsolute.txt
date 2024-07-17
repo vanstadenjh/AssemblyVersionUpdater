@@ -1,0 +1,6 @@
+C:\DEV\Repos\AssemblyVersionUpdater\AssemblyVersionUpdater\bin\Release\AssemblyVersionUpdater.exe.config
+C:\DEV\Repos\AssemblyVersionUpdater\AssemblyVersionUpdater\bin\Release\AssemblyVersionUpdater.exe
+C:\DEV\Repos\AssemblyVersionUpdater\AssemblyVersionUpdater\bin\Release\AssemblyVersionUpdater.pdb
+C:\DEV\Repos\AssemblyVersionUpdater\AssemblyVersionUpdater\obj\Release\AssemblyVersionUpdater.csproj.CoreCompileInputs.cache
+C:\DEV\Repos\AssemblyVersionUpdater\AssemblyVersionUpdater\obj\Release\AssemblyVersionUpdater.exe
+C:\DEV\Repos\AssemblyVersionUpdater\AssemblyVersionUpdater\obj\Release\AssemblyVersionUpdater.pdb
