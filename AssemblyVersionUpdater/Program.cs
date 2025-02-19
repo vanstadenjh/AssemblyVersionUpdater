@@ -1,8 +1,7 @@
 ﻿using System;
-using System.IO;
-using System.Linq;
-using System.Text.RegularExpressions;
 using System.Collections.Generic;
+using System.IO;
+using System.Text.RegularExpressions;
 
 namespace AssemblyVersionUpdater
 {
@@ -41,7 +40,14 @@ namespace AssemblyVersionUpdater
         {
           major = currentDate.Year.ToString();
           minor = currentDate.Month.ToString();
-          return $@"AssemblyVersion(""{major}.{minor}.*"")";
+          build = currentDate.Day.ToString();
+          // Use a smaller number for revision to stay within the 0-65535 range
+          int totalSeconds = (currentDate.Hour * 3600) + (currentDate.Minute * 60) + currentDate.Second;
+          // Divide total seconds by 10 to work in 10-second increments
+          int revisionNumber = totalSeconds / 10;
+          // Ensure the revision number is within the 0-65535 range
+          revisionNumber = revisionNumber % 65536;
+          return $@"AssemblyVersion(""{major}.{minor}.{build}.{revision}"")";
         }
         else
         {
@@ -49,7 +55,11 @@ namespace AssemblyVersionUpdater
           minor = currentDate.Month.ToString();
           build = currentDate.Day.ToString();
           // Use a smaller number for revision to stay within the 0-65535 range
-          int revisionNumber = (currentDate.Hour * 3600) + (currentDate.Minute * 60) + currentDate.Second;
+          int totalSeconds = (currentDate.Hour * 3600) + (currentDate.Minute * 60) + currentDate.Second;
+          // Divide total seconds by 10 to work in 10-second increments
+          int revisionNumber = totalSeconds / 10;
+          // Ensure the revision number is within the 0-65535 range
+          revisionNumber = revisionNumber % 65536;
           revision = revisionNumber.ToString();
           return $@"AssemblyVersion(""{major}.{minor}.{build}.{revision}"")";
         }

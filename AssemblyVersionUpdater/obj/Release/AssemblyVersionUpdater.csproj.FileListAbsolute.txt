@@ -4,3 +4,4 @@ C:\DEV\Repos\AssemblyVersionUpdater\AssemblyVersionUpdater\bin\Release\AssemblyV
 C:\DEV\Repos\AssemblyVersionUpdater\AssemblyVersionUpdater\obj\Release\AssemblyVersionUpdater.csproj.CoreCompileInputs.cache
 C:\DEV\Repos\AssemblyVersionUpdater\AssemblyVersionUpdater\obj\Release\AssemblyVersionUpdater.exe
 C:\DEV\Repos\AssemblyVersionUpdater\AssemblyVersionUpdater\obj\Release\AssemblyVersionUpdater.pdb
+C:\DEV\Repos\AssemblyVersionUpdater\AssemblyVersionUpdater\obj\Release\AssemblyVersionUpdater.csproj.AssemblyReference.cache
